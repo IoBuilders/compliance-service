@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "This EIP proposes a service for decentralized compliance checks for regulated tokens.",
   "main": "truffle-config.js",
+  "dependencies": {},
   "devDependencies": {
     "ethlint": "^1.2.4",
     "ganache-cli": "^6.4.5",
-    "randomstring": "^1.1.5",
     "solc": "0.5.10",
     "solidity-coverage": "^0.6.0",
     "truffle": "^5.0.27",
