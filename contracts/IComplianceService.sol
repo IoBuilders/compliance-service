@@ -1,6 +1,6 @@
 pragma solidity ^0.5.0;
 
-interface IHoldable {
+interface IComplianceService {
     function checkTransferAllowed(bytes32 tokenId, address from, address to, uint256 value) external view returns (byte);
     function checkTransferFromAllowed(bytes32 tokenId, address sender, address from, address to, uint256 value) external view returns (byte);
     function checkMintAllowed(bytes32 tokenId, address to, uint256 value) external view returns (byte);
